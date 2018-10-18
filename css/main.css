@@ -102,6 +102,10 @@ div.info > article {
           box-shadow: 2px 2px 59px -6px rgba(0, 0, 0, 0.75);
 }
 
+div.button {
+  background-color: #740606;
+}
+
 div.button > a {
   display: inline-block;
   width: 36rem;
@@ -161,5 +165,33 @@ div.cytaty div.kolo {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+div.contact {
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.contact > a {
+  display: inline-block;
+  width: 36rem;
+  height: 10rem;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  border-color: #fff;
+  border: 2px;
+}
+
+div.contact > a > span {
+  line-height: 10rem;
+  text-align: center;
+  display: block;
+  font-size: 3rem;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
 }
 /*# sourceMappingURL=main.css.map */
