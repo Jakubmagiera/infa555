@@ -1,0 +1,16 @@
+section.navbar-fluid {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    box-shadow:         0px 7px 15px 0px rgba(50, 50, 50, 0.3);
+
+    div.navbar {
+        height: 6rem;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+       
+    }
+}
