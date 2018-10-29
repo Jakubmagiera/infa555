@@ -1,0 +1,24 @@
+div.media1 {
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+  
+  
+    div.media {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      align-items: center;
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100px;
+  
+  
+      >div {
+  
+        //   background-color: rgb(216, 42, 42);
+        justify-content: center;
+  
+      }
+    }
+  }

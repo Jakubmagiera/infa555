@@ -1,14 +1,97 @@
-div.info {
-    display: flex;
-    justify-content: space-around;
-
-    >article {
-        box-sizing: border-box;
-        width: 30%;
-        padding: 2rem;
-        box-shadow: 2px 2px 59px -6px rgba(0,0,0,0.75);
-        
+div.info1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    
+    div.info2{
+        margin-top: 40px;
+        background-color: rgb(255, 255, 255);
     }
+    
+    h2{
+        font-size: 5rem;
 
+    }
+    
+    
+    p{
+        font-size: 2rem;
+    }
+   
+    a{
+        text-decoration: none;
+    span.info{
+        background-color: #00FFA3;
+        font-size: 3rem;
+        color: #239C71;
+        // height: 30px;
+      border: 1116rem;
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        border-top: 5rem;
+    }}
+    
+    }
+    
+    
+    div.container1{
+        width: 1000px;
+        height: 430px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255);
+       
+        
+    
+    div.info2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(255, 255, 255); 
+        height: 42rem;
+        width: 100%;
+        // margin-top: 35px;
 
-}
+        h3{
+            font-size: 2rem;
+        }
+    
+        p{
+            font-size: 2rem;
+        }
+    
+        >article1 {
+            box-sizing: border-box;
+            width: 30%;
+            padding: 2rem;
+            box-shadow: 0px 0px 82px -49px rgba(0,0,0,0.77);
+            background-color: rgb(255, 255, 255);
+            align-self: flex-start;
+            // height: 19rem;
+            
+        }
+        >article2 {
+            box-sizing: border-box;
+            width: 30%;
+            padding: 2rem;
+            box-shadow: 0px 0px 82px -49px rgba(0,0,0,0.77);
+            background-color: rgb(255, 255, 255);
+            align-self: flex-end;
+            // height: 19rem;
+            
+        }
+        >article3 {
+            box-sizing: border-box;
+            width: 30%;
+            padding: 2rem;
+            box-shadow: 0px 0px 82px -49px rgba(0,0,0,0.77);
+            background-color: rgb(255, 255, 255);
+            align-self: flex-start;
+            // height: 19rem;
+            
+        }
+    }
+    
+    }
