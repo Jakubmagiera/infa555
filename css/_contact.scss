@@ -1,13 +1,20 @@
 div.contact {
-    // align-items: center;
     width: 100%;
-    height: 260px;
+    // height: 260px;
     background-color: #262626;
-    border-top: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0rem 2rem 0rem;
+    letter-spacing: 0.1rem;
 
-    div.duzy {
-        color: rgb(110, 48, 182);
-        font-size: 3rem;
+
+    div.napis {
+        //    background-color: rgb(236, 9, 149);
+        font-size: 1rem;
+
+        // padding: 1rem;sss
 
 
     }
@@ -17,39 +24,115 @@ div.contact {
         color: rgb(255, 255, 255);
     }
 
-    >a {
-        display: inline-block;
-        width: 15rem;
-        height: 4.20rem;
-        background-color: #262626;
-        text-decoration: none;
-        color: #ffffff;
-        overflow: hidden;
+    div.przycisk {
 
 
-        >span {
-            line-height: 3.85rem;
-            text-align: center;
-            display: block;
-            font-size: 2rem;
-            transition: 0.3s linear;
-            border: 2px solid #ffffff;
-           
+        >a {
+            display: inline-block;
+            width: 15rem;
+            height: 4.20rem;
+            background-color: #262626;
+            text-decoration: none;
+            color: #ffffff;
+            overflow: hidden;
 
+            >span {
+                line-height: 3.85rem;
+                text-align: center;
+                display: block;
+                font-size: 2rem;
+                transition: 0.3s linear;
+                border: 2px solid #ffffff;
 
-
-            // margin-right: 
-
-
-
+            }
 
 
         }
 
 
-    }
-    >a:hover span{
-        transform: translateY(-4rem)
-    }
 
+        >a:hover span {
+            transform: translateY(-4rem)
+        }
+
+    }
+}
+
+div.tlo {
+
+    width: 100%;
+    background-color: #262626;
+
+    div.koniec {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        // background-color: rgb(35, 149, 214);
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 0.1rem;
+
+
+        div.lewa{
+            // background-color: #fff;
+            
+            
+            width: 25%;
+            >h2{
+                color: #ffffff;
+                font-size: 2rem;
+            }
+
+            >p{
+                font-size: 1.6rem;
+                color: #777777;
+                  line-height: 2.2rem;
+
+            }
+        }
+        div.srodek1{
+           
+            width: 25%;
+            // background-color: rgb(0, 255, 242);
+            ul {
+                list-style-type: none;
+                margin: 3rem;
+                padding: 0;
+            }
+            
+            li a {
+                display: block;
+                width: 60px;
+               color: #1FAA7B;
+                text-decoration: none;
+               font-size: 1.6rem;
+               line-height: 2.2rem;
+            }
+        }
+        div.srodek2{
+          
+            width: 25%;
+         
+            ul {
+                list-style-type: none;
+                margin: 3rem;
+                padding: 0;
+            }
+            
+            li a {
+                display: block;
+                width: 60px;
+               color: #1FAA7B;
+                text-decoration: none;
+               font-size: 1.6rem;
+               line-height: 2.2rem;
+            }
+        }
+        div.prawa{
+            height: 50PX;
+            width: 25%;
+            // background-color: rgb(255, 0, 0);
+        }
+
+    }
 }

@@ -46,6 +46,38 @@ section.navbar-fluid div.navbar {
           align-items: center;
 }
 
+section.navbar-fluid div.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  background-color: white;
+}
+
+section.navbar-fluid div.navbar li {
+  float: left;
+}
+
+section.navbar-fluid div.navbar li a {
+  display: block;
+  color: #52C5C1;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+  text-decoration: none;
+}
+
+section.navbar-fluid div.navbar li a:hover:not(.active) {
+  background-color: #52C5C1;
+  color: #fff;
+}
+
+section.navbar-fluid div.navbar li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
 header.header-top-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,6 +117,7 @@ header.header-top-fluid div:nth-child(2) p {
   margin: 0;
   font-size: 2rem;
   font-weight: 1.4rem;
+  margin-bottom: 4rem;
 }
 
 header.header-top-fluid div:nth-child(2) > a {
@@ -98,6 +131,7 @@ header.header-top-fluid div:nth-child(2) > a span {
   color: #3dcdbc;
   height: 110px;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  margin-top: 15rem;
 }
 
 div.info1 {
@@ -108,6 +142,12 @@ div.info1 {
   margin-right: auto;
   margin-left: auto;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 div.info1 div.info2 {
@@ -117,10 +157,27 @@ div.info1 div.info2 {
 
 div.info1 h2 {
   font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.info1 p {
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
 }
 
 div.info1 a {
@@ -131,9 +188,18 @@ div.info1 a span.info {
   background-color: #00FFA3;
   font-size: 3rem;
   color: #239C71;
-  border: 1116rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   border-top: 5rem;
+  width: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5rem;
 }
 
 div.container1 {
@@ -145,6 +211,7 @@ div.container1 {
 }
 
 div.container1 div.info2 {
+  margin-top: 16rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,12 +294,39 @@ div.button > a:hover span {
           transform: translateY(-10rem);
 }
 
+div.cytaty1 {
+  background-color: #F6F6F6;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 div.cytaty1 p {
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.cytaty1 h2 {
   font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.cytaty1 div.cytaty {
@@ -247,7 +341,6 @@ div.cytaty1 div.cytaty {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: white;
   border: 30px;
   width: 1000px;
 }
@@ -278,14 +371,26 @@ div.cytaty1 div.cytaty div.kolo {
 
 div.contact {
   width: 100%;
-  height: 260px;
   background-color: #262626;
-  border-top: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0rem 0rem 2rem 0rem;
+  letter-spacing: 0.1rem;
 }
 
-div.contact div.duzy {
-  color: #6e30b6;
-  font-size: 3rem;
+div.contact div.napis {
+  font-size: 1rem;
 }
 
 div.contact h4 {
@@ -293,7 +398,7 @@ div.contact h4 {
   color: white;
 }
 
-div.contact > a {
+div.contact div.przycisk > a {
   display: inline-block;
   width: 15rem;
   height: 4.20rem;
@@ -303,7 +408,7 @@ div.contact > a {
   overflow: hidden;
 }
 
-div.contact > a > span {
+div.contact div.przycisk > a > span {
   line-height: 3.85rem;
   text-align: center;
   display: block;
@@ -313,9 +418,86 @@ div.contact > a > span {
   border: 2px solid #ffffff;
 }
 
-div.contact > a:hover span {
+div.contact div.przycisk > a:hover span {
   -webkit-transform: translateY(-4rem);
           transform: translateY(-4rem);
+}
+
+div.tlo {
+  width: 100%;
+  background-color: #262626;
+}
+
+div.tlo div.koniec {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  letter-spacing: 0.1rem;
+}
+
+div.tlo div.koniec div.lewa {
+  width: 25%;
+}
+
+div.tlo div.koniec div.lewa > h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+div.tlo div.koniec div.lewa > p {
+  font-size: 1.6rem;
+  color: #777777;
+  line-height: 2.2rem;
+}
+
+div.tlo div.koniec div.srodek1 {
+  width: 25%;
+}
+
+div.tlo div.koniec div.srodek1 ul {
+  list-style-type: none;
+  margin: 3rem;
+  padding: 0;
+}
+
+div.tlo div.koniec div.srodek1 li a {
+  display: block;
+  width: 60px;
+  color: #1FAA7B;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+div.tlo div.koniec div.srodek2 {
+  width: 25%;
+}
+
+div.tlo div.koniec div.srodek2 ul {
+  list-style-type: none;
+  margin: 3rem;
+  padding: 0;
+}
+
+div.tlo div.koniec div.srodek2 li a {
+  display: block;
+  width: 60px;
+  color: #1FAA7B;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+div.tlo div.koniec div.prawa {
+  height: 50PX;
+  width: 25%;
 }
 
 div.media1 {
@@ -351,6 +533,7 @@ div.media1 div.media > div {
 div.obrazki {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 8rem;
   width: 1000px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -358,16 +541,35 @@ div.obrazki {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
-  padding: 0.1rem 0rem 3rem 0rem;
+  padding: 0.1rem 0rem 8rem 0rem;
 }
 
 div.obrazki h2 {
   font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.obrazki p {
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.obrazki div.obrazki2 {
@@ -377,6 +579,7 @@ div.obrazki div.obrazki2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-bottom: 4rem;
 }
 
 div.obrazki div.obrazki2 div.obrazki3 {
@@ -391,6 +594,7 @@ div.obrazki div.obrazki2 div.obrazki3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 4rem;
 }
 
 div.obrazki div.obrazki2 div.obrazki3 div.lewa {
@@ -451,8 +655,16 @@ div.obrazki a span.obrazki-przycisk {
   background-color: #00FFA3;
   font-size: 3rem;
   color: #239C71;
-  border: 1116rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   border-top: 5rem;
+  width: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */

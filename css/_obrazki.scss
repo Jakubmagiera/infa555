@@ -1,20 +1,30 @@
 div.obrazki {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8rem;
     width: 1000px;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
 
     background-color: rgb(255, 255, 255);
-    padding: 0.1rem 0rem 3rem 0rem;
+    padding: 0.1rem 0rem 8rem 0rem;
 
     h2 {
         font-size: 5rem;
+        display: flex;
+        justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
     }
 
     p {
         font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     }
 
     div.obrazki2 {
@@ -22,6 +32,8 @@ div.obrazki {
         // justify-content: space-around;
         flex-wrap: wrap;
         flex-direction: row;
+        margin-bottom: 4rem;
+
         
         
 
@@ -33,6 +45,7 @@ div.obrazki {
             display: flex;
             justify-content: space-around;
             align-items: center;
+            margin-top: 4rem;
 
 
             div.lewa {flex-direction: column; 
@@ -90,9 +103,13 @@ div.obrazki {
         font-size: 3rem;
         color: #239C71;
         // height: 30px;
-      border: 1116rem;
+      margin-left: auto;
+      margin-right: auto;
         padding: 1.5rem 1.5rem 1.5rem 1.5rem;
         border-top: 5rem;
+        width: 30rem;
+        display: flex;
+        justify-content: center;
       
     }}
     }

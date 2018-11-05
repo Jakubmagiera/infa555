@@ -11,6 +11,39 @@ section.navbar-fluid {
         justify-content: space-between;
         align-items: center;
 
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border: none;
+            background-color: rgb(255, 255, 255);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #52C5C1;
+            text-align: center;
+            font-size: 1.6rem;
+            padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #52C5C1;
+            color: #fff;
+        }
+
+        li a.active {
+            color: white;
+            background-color: #4CAF50;
+        }
+
        
     }
 }

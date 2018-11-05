@@ -6,7 +6,9 @@ div.info1{
     margin-right: auto;
     margin-left: auto;
     background-color: rgb(255, 255, 255);
-    
+    display: flex;
+   justify-content: center;
+  
     div.info2{
         margin-top: 40px;
         background-color: rgb(255, 255, 255);
@@ -14,12 +16,21 @@ div.info1{
     
     h2{
         font-size: 5rem;
+        display: flex;
+        justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
     }
     
     
     p{
         font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
     }
    
     a{
@@ -29,9 +40,14 @@ div.info1{
         font-size: 3rem;
         color: #239C71;
         // height: 30px;
-      border: 1116rem;
+      margin-left: auto;
+      margin-right: auto;
         padding: 1.5rem 1.5rem 1.5rem 1.5rem;
         border-top: 5rem;
+        width: 30rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
     }}
     
     }
@@ -47,12 +63,14 @@ div.info1{
         
     
     div.info2 {
+        margin-top: 16rem;
         display: flex;
         justify-content: space-around;
         background-color: rgb(255, 255, 255); 
         height: 42rem;
         width: 100%;
         // margin-top: 35px;
+       
 
         h3{
             font-size: 2rem;
