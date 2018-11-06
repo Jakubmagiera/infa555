@@ -32,6 +32,7 @@ section.navbar-fluid {
             font-size: 1.6rem;
             padding: 1.2rem 1.5rem 1.2rem 1.5rem;
             text-decoration: none;
+            transition: 0.8s;
         }
 
         li a:hover:not(.active) {
@@ -42,6 +43,7 @@ section.navbar-fluid {
         li a.active {
             color: white;
             background-color: #4CAF50;
+            
         }
 
        

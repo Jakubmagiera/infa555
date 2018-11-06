@@ -66,6 +66,8 @@ section.navbar-fluid div.navbar li a {
   font-size: 1.6rem;
   padding: 1.2rem 1.5rem 1.2rem 1.5rem;
   text-decoration: none;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 section.navbar-fluid div.navbar li a:hover:not(.active) {
@@ -230,40 +232,28 @@ div.container1 div.info2 p {
   font-size: 2rem;
 }
 
-div.container1 div.info2 > article1 {
+div.container1 div.info2 > article.pierwszy {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 30%;
   padding: 2rem;
-  -webkit-box-shadow: 0px 0px 82px -49px rgba(0, 0, 0, 0.77);
-          box-shadow: 0px 0px 82px -49px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: -1px -1px 76px 8px #c9c9c9;
+          box-shadow: -1px -1px 76px 8px #c9c9c9;
   background-color: white;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
 
-div.container1 div.info2 > article2 {
+div.container1 div.info2 > article.drugi {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 30%;
   padding: 2rem;
-  -webkit-box-shadow: 0px 0px 82px -49px rgba(0, 0, 0, 0.77);
-          box-shadow: 0px 0px 82px -49px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: -1px -1px 76px 8px #c9c9c9;
+          box-shadow: -1px -1px 76px 8px #c9c9c9;
   background-color: white;
   -ms-flex-item-align: end;
       align-self: flex-end;
-}
-
-div.container1 div.info2 > article3 {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 30%;
-  padding: 2rem;
-  -webkit-box-shadow: 0px 0px 82px -49px rgba(0, 0, 0, 0.77);
-          box-shadow: 0px 0px 82px -49px rgba(0, 0, 0, 0.77);
-  background-color: white;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
 }
 
 div.button {
@@ -305,8 +295,14 @@ div.cytaty1 {
   margin-right: auto;
 }
 
-div.cytaty1 p {
-  font-size: 2rem;
+div.cytaty1 div.cytaty3 {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.cytaty1 div.cytaty3 p {
+  font-size: 2.3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,7 +313,7 @@ div.cytaty1 p {
   margin-right: auto;
 }
 
-div.cytaty1 h2 {
+div.cytaty1 div.cytaty3 h2 {
   font-size: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -329,7 +325,7 @@ div.cytaty1 h2 {
   margin-right: auto;
 }
 
-div.cytaty1 div.cytaty {
+div.cytaty1 div.cytaty3 div.cytaty {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,11 +341,11 @@ div.cytaty1 div.cytaty {
   width: 1000px;
 }
 
-div.cytaty1 div.cytaty i {
+div.cytaty1 div.cytaty3 div.cytaty i {
   font-size: 2rem;
 }
 
-div.cytaty1 div.cytaty > article {
+div.cytaty1 div.cytaty3 div.cytaty > article {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   width: 45%;
@@ -359,7 +355,7 @@ div.cytaty1 div.cytaty > article {
           align-items: flex-start;
 }
 
-div.cytaty1 div.cytaty div.kolo {
+div.cytaty1 div.cytaty3 div.cytaty div.kolo {
   height: 4rem;
   width: 4rem;
   background-color: rgba(194, 189, 189, 0.767);
