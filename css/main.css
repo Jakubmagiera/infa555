@@ -419,8 +419,8 @@ div.contact div.przycisk > a > span {
 }
 
 div.contact div.przycisk > a:hover span {
-  -webkit-transform: translateY(-4rem);
-          transform: translateY(-4rem);
+  -webkit-transform: translateY(-4.2rem);
+          transform: translateY(-4.2rem);
 }
 
 div.tlo {
@@ -473,7 +473,7 @@ div.tlo div.koniec div.srodek1 li a {
   color: #1FAA7B;
   text-decoration: none;
   font-size: 1.6rem;
-  line-height: 2.2rem;
+  line-height: 3.1rem;
 }
 
 div.tlo div.koniec div.srodek2 {
